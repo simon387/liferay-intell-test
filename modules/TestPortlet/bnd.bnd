@@ -1,0 +1,4 @@
+Bundle-Name: TestPortlet
+Bundle-SymbolicName: it.simonecelia.liferay.idea.test
+Bundle-Version: 1.0.0
+Export-Package: it.simonecelia.liferay.idea.test.constants
