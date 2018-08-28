@@ -38,7 +38,7 @@ public class TestPortlet extends MVCPortlet {
 
 		User user = themeDisplay.getUser();
 
-		renderRequest.setAttribute("userName", user.getFirstName());
+		renderRequest.setAttribute(TestPortletKeys.userName, user.getFirstName());
 
 		super.render(renderRequest, renderResponse);
 	}

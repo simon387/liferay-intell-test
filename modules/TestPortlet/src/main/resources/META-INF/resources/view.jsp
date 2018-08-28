@@ -1,9 +1,7 @@
 <%@ include file="/init.jsp" %>
 
-<jsp:useBean id="userName" type="java.lang.String" scope="request" />
+<jsp:useBean id="userName" type="java.lang.String" scope="request"/>
 
 <p>
-
-	<b>Hello, <%=userName %>! oh, ha deployato correttamente!</b>
-
+    Hello, <b><%=userName %></b>! oh, ha deployato correttamente!
 </p>
